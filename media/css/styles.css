@@ -1,10 +1,15 @@
 body {
+    margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-areas:
     'title nav'
     'main main'
     'main main';
+}
+
+#title, .nav {
+    margin: 1em;
 }
 
 #bar {
@@ -21,12 +26,20 @@ body {
     grid-area: nav;
 }
 
-.main {grid-area: main;}
+.main {grid-area: main;
+    margin-left: 0;
+    padding: 0;
+}
 
-.splash {width: 100%;}
+.splash {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+}
 
 footer {
-    position: absolute;
+    margin: 0.5em;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
