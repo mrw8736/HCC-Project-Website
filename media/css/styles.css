@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
     display: grid;
     grid-template-areas:
     'title nav'
@@ -12,13 +15,27 @@ body {
     margin: 1em;
 }
 
+
+
 #bar {
     float: right;
 }
 
 #bar li{
+    margin: 1em;
     display: inline;
 }
+
+#bar li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#bar li a:hover {
+    text-decoration: underline;
+}
+
+
 
 #title {grid-area: title;}
 
@@ -37,9 +54,9 @@ body {
     padding: 0;
 }
 
+
+
 footer {
     margin: 0.5em;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
