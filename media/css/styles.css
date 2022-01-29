@@ -28,16 +28,19 @@ body {
 
 #bar {
     float: right;
+    margin-right: 1em;
 }
 
 #bar li{
-    margin: 1em;
+    margin: 0.3em;
     display: inline;
 }
 
-#bar li a {
+#bar li a, #bar li {
     text-decoration: none;
-    font-weight: bold;
+    
+    color: black;
+    font-size: 1.5rem;
 }
 
 #bar li a:hover {
