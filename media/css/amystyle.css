@@ -1,0 +1,93 @@
+
+:root {
+    --text: #2b2b2b;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    color: var(--text);
+    margin:0;
+    padding:0;
+    font-size:1.2em;
+    line-height:180%;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+} 
+
+a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.appname {
+    text-transform: uppercase;
+    font-size:1.6em;
+}
+
+.navlinks a{
+    text-transform: uppercase;
+    font-size:.9em;
+}
+
+nav {
+    width:70vw;
+    margin:4em auto;
+    display:flex; 
+    justify-content: space-between;
+}
+
+.content {
+    width:70vw;
+    margin:4em auto;
+}
+
+.heading {
+    font-size:24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom:2em;
+}
+
+.subheading {
+    font-size:21px;
+    font-weight: 500;
+}
+
+.subheading.stakes {
+    margin-bottom:2em;
+}
+
+.imgcont {
+    width:70vw;
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgcont img {
+    width:50%;
+}
+
+.stakeholdercont {
+    background: #f8f8f8;
+    width:100vw;
+    position:relative;
+    margin:auto;
+    padding:2em 0;
+}
+
+.stakeholder {
+    width:70vw;
+    margin:4em auto;
+}
+
+.stakeholderimgcont {
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
