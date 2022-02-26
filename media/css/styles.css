@@ -111,6 +111,20 @@ img {
 
 /*Prototype Styles*/
 
+.proto_link {
+    text-decoration: none;
+    
+    color: darkslateblue;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.proto_link:hover {
+    text-decoration: underline;
+    color: royalblue;
+}
+
 .proto_photo {
     width: 25%;
 }
@@ -145,6 +159,7 @@ img {
     grid-area: sec3;
     border: 1px solid black;
 }
+
 
 
 footer {
