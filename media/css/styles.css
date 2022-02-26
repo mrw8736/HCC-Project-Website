@@ -19,6 +19,14 @@ body {
     'main main';
 }
 
+.proto {
+    display: grid;
+    grid-template-areas:
+    'title nav'
+    'main main'
+    'main main';
+}
+
 
 #title, .nav {
     margin: 1em;
@@ -101,6 +109,42 @@ img {
     width: 100%;
 }
 
+/*Prototype Styles*/
+
+.proto_photo {
+    width: 25%;
+}
+
+.proto_section {
+    display: grid;
+    grid-template-areas: 'sec1 sec2 sec3';
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proto_section .proto_photo {
+    width: unset;
+    height: 40%;
+}
+
+#sec1 {
+    grid-area: sec1;
+    border: 1px solid black;
+}
+
+#sec1 .proto_photo {
+    height: unset;
+    width: 100%;
+}
+
+#sec2 {
+    grid-area: sec2;
+    border: 1px solid black;
+}
+
+#sec3 {
+    grid-area: sec3;
+    border: 1px solid black;
+}
 
 
 footer {
