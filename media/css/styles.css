@@ -161,6 +161,19 @@ img {
 }
 
 
+/*Testing Styles*/
+
+.test {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.chart {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 
 footer {
     margin: 0.5em;
