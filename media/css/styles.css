@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
 }
 
 .site {
@@ -57,7 +58,10 @@ body {
 
 
 
-#title {grid-area: title;}
+#title {
+    grid-area: title;
+    font-size: 1.6em;
+}
 
 .nav {
     grid-area: nav;
@@ -75,11 +79,15 @@ body {
     padding: 0;
 }
 
-/*About styles*/
-
 h2 {
-    margin: 1.5em;
+    margin: 1.7em;
 }
+
+h3 {
+    margin: 1em 2.2em;
+}
+
+/*About styles*/
 
 .main2 {
     display: grid;
@@ -172,6 +180,94 @@ img {
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+
+/*Hi-Fi Testing Styles*/
+
+.data {
+    background-color: #F5F5F5;
+}
+
+.data h2 {
+    padding-top: 2rem;
+}
+
+.data img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.doc_link {
+    display: block;
+    margin: 2rem 2.5rem;
+}
+
+.doc_link:link {
+    color: black
+}
+
+.doc_link:visited {
+    color: darkslateblue
+}
+
+.hi_screens {
+    display: grid;
+    grid-template-areas:
+    'hi1 hi2 hi3'
+    'hi4 hi5 hi6'
+    'hi7 hi8 void';
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hi_screens div img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.hi_screens div p {
+    padding-right: 7rem;
+    padding-left: 7rem;
+}
+
+.hi_screens div h3 {
+    padding-left: 4.5rem;
+}
+
+.hi1 {
+    grid-area: hi1;
+}
+
+.hi2 {
+    grid-area: hi2;
+}
+
+.hi3 {
+    grid-area: hi3;
+}
+
+.hi4 {
+    grid-area: hi4;
+}
+
+.hi5 {
+    grid-area: hi5;
+}
+
+.hi6 {
+    grid-area: hi6;
+}
+
+.hi7 {
+    grid-area: hi7;
+}
+
+.hi8 {
+    grid-area: hi8;
+}
+
+.void {
+    grid-area: void;
 }
 
 
